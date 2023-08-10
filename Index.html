@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>EngrArts - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d515a2340f.js" crossorigin="anonymous"></script>
+</head> 
+<body>
+<div id="header"> 
+    <div class="container">
+        <nav>
+            <img src="1Logo Pinakafinal@72x-8.png" class="logo">
+            <ul  id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li> 
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Engineer/Logo Designer</p>
+            <h1>Hi, I'm <span>Engr.</span><br>Arts from PH!</h1>
+        </div>
+    </div>
+</div>
+<!-----about--------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <video autoplay loop src="Engr.Arts.mp4"></video>
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <p>I'm Engr.Arts from the Philippines a Logo Designer.
+                    Currently i've made this website all by myself trying to learn new skills.               
+                    I'm passionate about making Logos and 2D&3D Residential Plans.
+                    I also know how to use AutoCAD, Photoshop & Illustrator and planning to learn how to make a website.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('softwares')">Softwares</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills"> 
+                    <ul>
+                        <li><span>Logo</span><br>Designing</li>
+                        <li><span>Graphic</span><br>Designing</li>
+                        <li><span>2D/3D</span><br>AutoCAD Designing</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="softwares">
+                    <ul>
+                        <li><span>Adobe</span><br>Photoshop</li>
+                        <li><span>Adobe</span><br>Illustrator</li>
+                        <li><span>Autodesk</span><br>AutoCAD</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----services----->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">MY SERVICES</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Logo Design</h2>
+                <p>Wordmark/logotype, Letterform,<br> Monogram,Abstract logo mark,<br> Emblem & Combination marks logos.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-layer-group"></i>
+                <h2>Graphic Design</h2>
+                <p>Posters, Business Cards,<br>Brochures, Social Media post Design & Advertisment Design.<br></p>                
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-vector-square"></i>   
+                <h2>AutoCAD</h2>
+                <p> 2D Residential Plans & Electrical Plans.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----portfolio------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">MY WORK</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="1Asset 5@72x-8.png">
+                <div class="layer">
+                    <h3>Monogram</h3>
+                    <p>This monogram is used as a logo brand of a small coffee business</p>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="CYMON's Final.jpg">
+                <div class="layer">
+                    <h3>Social Media Advertisment</h3>
+                    <p>This Advertisment design is used for advertisment</p>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="AD Cymon's Coffee.jpg">
+                <div class="layer">
+                    <h3>Social Media Advertisment</h3>
+                    <p>This Advertisment design is used for advertisment</p>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+<!-----------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">CONTACT ME</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> newaone1234@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 09453892642</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100095243927269"><a href="#"><i class="fa-brands fa-square-facebook"></i></a></a>
+                    <a href=""><a href="#"><i class="fa-brands fa-square-twitter"></i></a></a>
+                    <a href=""><a href="#"><i class="fa-brands fa-square-instagram"></i></a></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="Text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Engr.Arts.</p>
+    </div>
+</div>
+<script>
+   
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form>
+  <script>
+    const scriptURL ='https://script.google.com/macros/s/AKfycbxlC1ORjXjwma6BNTIPcoo529YXVsZ4C9RKi60kuphSLGFesPmaP9LThPjVSWqVdPb2fA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
